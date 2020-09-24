@@ -1,12 +1,13 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
- * p - print num 0 - 9
+ * print_numbers - print 0-9
  */
-void p(void)
+void print_numbers(void)
 {
-int p;
-for (p = 0; p < 10; p++)
-_putchar(p + '0');
-_putchar(10);
+int i;
+for (i = 0; i < 10; i++)
+_putchar(i + 48);
+_putchar('\n');
 }
