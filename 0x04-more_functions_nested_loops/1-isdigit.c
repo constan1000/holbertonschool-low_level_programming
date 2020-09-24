@@ -2,16 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _isdigit - check the code for Holberton School students.
+ *@c : 1 if c is digit 0 if is not
  * Return: Always 0.
  */
 int _isdigit(int c)
 {
-  {
-  if ((c >= 48) && (c <= 58));
-  return(1);
-  }
-  else
-    return(0);
+return ((c >= 48 && c <= 57) ? 1 : 0);
 }
