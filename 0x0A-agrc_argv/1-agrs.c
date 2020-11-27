@@ -1,19 +1,15 @@
-#include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - prints the number of arguments passed into it
- * @argc: argument count
- * @argv: argument vector
- * Return: 0
+ *main - print the number of arguments.
+ *@argc: array length.
+ *@argv: array.
+ *Return: 0.
  */
-int main(int argc, char *argv[])
-{
-	int sum = 0;
 
-	(void)argv;
-	while (--argc)
-		sum++;
-	printf("%i\n", sum);
+int main(int argc, char *argv[]__attribute__((unused)))
+{
+	printf("%d\n", argc - 1);
 	return (0);
 }
