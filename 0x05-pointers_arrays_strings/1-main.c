@@ -18,3 +18,11 @@ int main(void)
     printf("a=%d, b=%d\n", a, b);
     return (0);
 }
+
+int main(void)
+  int a;
+int b;
+
+a = 122;
+b = 67;
+printf("a=%d, b=%\n", a, b);
